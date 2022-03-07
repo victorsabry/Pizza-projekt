@@ -8,14 +8,11 @@ namespace Pizza_projekt
     {
         private Custommer _custommer;
         private Pizza _pizza;
-        
-        
         public Order(Pizza pizza, Custommer custommer)
         {
             _pizza = pizza;
             _custommer = custommer;
         }
-
         public Double CalculateTotalPrice()
         {
             const double delivery = 40;
@@ -25,7 +22,7 @@ namespace Pizza_projekt
         }
         public override string ToString()
         {
-            return $"Order: {_pizza} - Custommer: {_custommer}";
+            return $"Order: {_pizza} - Custommer: {_custommer} - Total price: {CalculateTotalPrice()}";
         }
     }
 }

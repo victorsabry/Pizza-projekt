@@ -9,7 +9,6 @@ namespace Pizza_projekt
         private string _csname;
         private int _phoneNumber;
         private string _adress;
-
         public Custommer(string csname, int phoneNumber, string adress)
         {
             _csname = csname;
@@ -30,7 +29,7 @@ namespace Pizza_projekt
         }
         public override string ToString()
         {
-            return $"Custommer: {CSName} - Phone number: {PhoneNumber} - Adress: {Adress}";
+            return $"{CSName} - Phone number: {PhoneNumber} - Adress: {Adress}";
         }
     }
 }

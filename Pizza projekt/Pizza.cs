@@ -10,8 +10,6 @@ namespace Pizza_projekt
         private string _pizzaTopping;
         private int _pizzaPrice;
         public string Størrelse { get; }
-
-
         public Pizza(string størrelse, string name, string topping, int price)
         {
             _pizzaName = name;
@@ -33,7 +31,7 @@ namespace Pizza_projekt
         }
         public override string ToString()
         {
-            return $"Size: {Størrelse} - Name: {PizzaName} - Topping: {PizzaTopping} - Price: {PizzaPrice}";
+            return $"Size: {Størrelse} - Pizza: {PizzaName} - Topping: {PizzaTopping} - Price: {PizzaPrice}";
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 //Programmer: Victor Eriksen Sabry
 //Date: 14/02-22
-//School 
+//School: Zealand Roskilde
 namespace Pizza_projekt
 {
     class Program
@@ -9,7 +9,7 @@ namespace Pizza_projekt
         static void Main(string[] args)
         {
             var BigMamma = new Store();
-            Console.WriteLine($"Pris for ordre 1: {1}");
+            BigMamma.start();
         }
     }
 }
