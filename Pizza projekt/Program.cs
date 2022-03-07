@@ -9,7 +9,7 @@ namespace Pizza_projekt
         static void Main(string[] args)
         {
             var BigMamma = new Store();
-            Console.WriteLine($"Pris for ordre 1: {}");
+            Console.WriteLine($"Pris for ordre 1: {1}");
         }
     }
 }

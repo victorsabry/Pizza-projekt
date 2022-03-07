@@ -16,7 +16,7 @@ namespace Pizza_projekt
 
             var c1 = new Custommer("Victor", 22250850, "Bøgehegnet 165");
             var c2 = new Custommer("V", 22222222, "Snebærhegnet 56");
-            var c3 = new Custommer("C", 88888888, "Fyrrehegnet 41");
+            var c3 = new Custommer("C", 88888888, "Fyrrehegnet 42");
 
             var o1 = new Order(p1, c1);
             var o2 = new Order(p2, c2);
